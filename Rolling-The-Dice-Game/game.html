@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="newgame">
+        <input type="button" value="New Game" id="btn" onclick="clickToNewGame()">
+    </div>
+    <div class="container">
+        <div id="player1">
+            <h1 id="players1">Player 1</h1>
+            <img src="new/dice1.png" alt="" id="pic" width="150px" height="150px">
+            <p>Current Score</p>
+            <h1 id="currscore1">53</h1>
+            <p>Score</p>
+            <h1 id="score1">53</h1>
+            <input type="button" value="rolldice" onclick="generateNumP1()">
+        </div>
+        <div id="player2">
+            <h1 id="players2">Player 2</h1>
+            <img src="new/dice1.png" alt="" id="pic1" width="150px" height="150px">
+            <p>Current Score</p>
+            <h1 id="currscore2">53</h1>
+            <p>Score</p>
+            <h1 id="score2">53</h1>
+            <input type="button" value="rolldice" onclick="generateNumP2()">
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

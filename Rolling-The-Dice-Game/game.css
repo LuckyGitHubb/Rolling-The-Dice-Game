@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(50, 47, 47);
+    color: black;
+}
+.newgame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: rgb(231, 231, 106);
+}
+#btn:hover{
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: rgb(212, 212, 65);
+}
+/* input[type='button']:hover {
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: rgb(212, 212, 65);
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#player1{
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    /* height: 200px; */
+    background-color: rgb(231, 231, 106);
+}
+#player2{
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    /* height: 200px; */
+    background-color: rgb(231, 231, 106);
+}
+#player1:hover{
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(212, 212, 65);
+}
+#player2:hover{
+    border: 2px solid black;
+    border-radius: 13px;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: rgb(212, 212, 65);
+}
+p{
+    font-size: 1.1rem;
+}
